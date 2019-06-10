@@ -2,7 +2,7 @@
 #include<conio.h>
 using namespace std;
 int main(){
-	int a[10],n,i=0;
+	int a[100],n,i=0;
 	int large=0,small=0;
 	cout<<"Enter the size of array";
 	cin>>n;
@@ -19,6 +19,6 @@ int main(){
 			small=a[i];
 		}
 	}
-	cout<<"largest element is"<<large<<endl<<"smallest element is"<<small;
+	cout<<"The Largest element is "<<large<<endl<<" and the Smallest element is "<<small;
 	return 0;
 }
