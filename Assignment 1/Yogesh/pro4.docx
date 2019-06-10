@@ -1,0 +1,22 @@
+#include<iostream.h>
+#include<stdio.h>
+using namespace std;
+
+void main(){
+
+int i,n,sum=20;
+cout<<"the series is 22,21,23,22,24,.......n"<<endl<<"enter n ";
+cin>>n<<endl;
+if(n<=0)
+  cout<<"invalid input"<<endl;
+
+for(i=1;i<=n;i++){
+	if(i%2!==0)
+	sum = sum + 2;
+	else
+	sum = sum - 1;
+}
+
+cout<<"The sum of series upto "<<n<< "terms is "<< sum;
+getch();
+}

@@ -1,0 +1,28 @@
+#include<iostream.h>
+#include<stdio.h>
+using namespace std;
+
+void main(){ 
+
+	double x;
+	cout<<"enter any character";
+	cin>>x;
+		if(x >= 'A' && x <= 'Z'){
+	
+		   cout<<"character entered is in uppercase";
+			}
+		else if(x >= 'a' && x <= 'z'){
+	
+		   cout<<"character entered is in lowercase";
+			}
+		else if(x >= '0' && x <= '9'){
+	
+		   cout<<"character entered is a digit";
+			}
+		else 
+	
+		   cout<<"character entered is other than uppercase alphabet,lowercase alphabet and a digit";
+			
+
+getch();
+}

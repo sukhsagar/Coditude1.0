@@ -1,0 +1,18 @@
+#include<iostream.h>
+#include<stdio.h>
+using namespace std;
+ void swap(int x, int y){
+
+	x = (x+y)-x;
+	y = (y+x)-y;
+	
+	}
+void main(){
+
+	int x=10,y=11;
+	cout<<"before swapping: x ="<<x<<"and y ="<<y<<endl;
+	swap(x,y);
+	cout<<"after swapping: x ="<<x<<"and y ="<<y<<endl;
+	
+	getch();
+	}

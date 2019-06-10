@@ -1,0 +1,242 @@
+                             PERSONAL DETAILS
+Name : Nimret kaur
+Class : MCA(TYC)
+Semester : 3rd
+Email ID : nimretkaur95@gmail.com
+Introduction : i have done my graduation in bsc computer science. so i dont know mucbh about computers, and i really want to learn about the same.
+Job i am looking for: still to decide that.(related to my post graduation degree only)
+How i am preparing myself for the job:  
+How confident i am that i will get job: to be frank no hopes.
+Where do i see myself in 5 years: hope that i might be working n independent women.
+   
+
+                              TIMINGS
+Any problem with 5pm to 7pm batch: No
+                     
+
+                              TECHNICAL QUES
+
+1. WAP TO SWAP THE VALUES OF TWO VARIABLES BY USING A SEPARATE FUNCTION.
+    
+#include<stdio.h>
+#include<conio.h>
+void swap(int,int)
+void main()
+{
+ int a,b;
+ clrscr();
+ printf("entered two values a and b: ");
+ scanf("%d %d",&a,&b);
+ printf("provided values of a is %d and b is %d", a,b);
+ swap(a,b);
+ 
+ getch();
+}
+
+void swap(int a,int b)
+{ 
+ int temp,x,y;
+ temp=x;
+ x=y;
+ y=temp;
+ printf("after swap the values are : ");
+ printf(" a=%d and b=%d ,x,y");
+}
+
+
+2. WAP TO DETERMINE WHETHER ENTERED CHARACTER BY THE USER IS A CAPITAL LETTER,A SMALL CASE LETTER, A DIGIT OR NONE OF THESE.
+ 
+#include<stdio.h>
+#include<conio.h>
+  
+void main()
+
+{ 
+   
+ char x;
+    
+ printf("enter a character:");
+  
+ scanf("%c",&x);
+    
+  
+ if(x>=97&&x<=122)
+  
+  {
+       
+    printf("entered character is small case letter");
+  
+  }
+    
+  elseif(x>=65&&x<=90)
+  
+   {
+       
+     printf("entered charater is capital letter.");
+   
+   }
+   
+  elseif(x>=0&&x<=9)
+   
+   {
+      
+     printf("entered character is a digit");
+  
+   }
+   
+ else
+    
+   {
+       
+     printf("entered character is not a capital letter, a small case letter or a digit");
+   
+   }
+    
+ getch();
+
+}
+
+
+
+3. WAP IN C++TO FIND THE LARGEST AND SMALLEST ELEMENT OF AN ARRAY.
+
+
+#inclue<iostream.h>
+#include<conio.h>
+
+void main()
+{ 
+ int a[10],i,temp;
+ clrscr();
+ cout<<"enter 10 elements in an array:"<<endl;
+ 
+ for(i=1;i<=10;i++)
+  {
+    cin>>a[i];
+  }
+ cout<<endl<<"entered elements of an array are :";
+ 
+ for(i=1;i<=10;i++)
+  { 
+    if(a[i]>a[i+1])
+     {
+       temp=a[i];
+       a[i+1]=a[i];
+       a[i]=temp;
+     }
+  }
+cout<<endl<<"the largest element in an array is "<<a[10];
+ 
+ for(i=10;i<=1;i--)
+  {
+    if(a[i]<a[i-1])
+     { 
+       temp=a[i];
+       a[i-1]=a[i];
+       a[i]=temp;
+     }
+  }
+ cout<<endl<<"the smallest element in an array is "<<a[1];
+ 
+ getch();
+}
+
+
+
+4. WAP TO FIND THE SUM OF THE FOLLOWING SERIES:
+   22,21,23,22,24,23,.....n
+
+#include<stdio.h>
+#include<conio.h>
+
+logic :
+         its even place -1
+             odd place  +2
+             let a=22
+             sum =0
+             for loop ( from one to n )
+              sum"=a
+              sum'=sum"+(a-1)
+              sum=sum'+(a+2)
+              so on...
+              till n.
+
+NOT ABLE TO DO THIS PROGRAM
+ Rest programs are done without laptop..so they are not compiled.
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
