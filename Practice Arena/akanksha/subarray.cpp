@@ -19,6 +19,7 @@ int main()
 				}
 			}
 			if(sum2>sum){
+			
 				break;
 			}
 		}
