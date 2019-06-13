@@ -14,9 +14,8 @@ int main(){
 			
 		}
 		num=temp;
-		temp=1;
 		
 		
 	}
-	cout<<"number is"<<temp;
+	cout<<"number is"<<num;
 }
