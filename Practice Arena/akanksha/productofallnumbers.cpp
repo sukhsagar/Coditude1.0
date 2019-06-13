@@ -6,11 +6,11 @@ int main(){
 	cout<<"enter any number";
 	cin>>num;
 	while(num/10>0){
+		temp=1;
 		while(num>0){
+			 temp=temp*(num%10);
 			ldigit=num%10;
-			temp=ldigit;
-			temp=temp*ldigit;
-			num=num/10;
+	          num=num/10;
 			
 		}
 		num=temp;
