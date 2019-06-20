@@ -8,8 +8,10 @@ int main(){
 	while(num/10>0){
 		temp=1;
 		while(num>0){
+			
+			
 			 temp=temp*(num%10);
-			ldigit=num%10;
+			
 	          num=num/10;
 			
 		}
