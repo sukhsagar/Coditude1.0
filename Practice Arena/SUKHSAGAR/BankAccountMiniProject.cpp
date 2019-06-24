@@ -11,8 +11,6 @@ class BankAccount{
 		double bal;
 		string uid;
 	
-		BankAccount(){}
-		
 		void associateValues(int a, string n, double b, string u, int s){
 			acc_no=a;;
 			status=s;
