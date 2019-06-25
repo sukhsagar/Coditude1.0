@@ -23,10 +23,10 @@ int main()
 			
 	}
 
-     for(j=0;j<n;j++){
+     for(i=0,j=n-1;i<n;i++,j--){
      	
      
-				sum=sum+a[j][j];
+				sum=sum+a[i][j];
 			}
 		
 		
