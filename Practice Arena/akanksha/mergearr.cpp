@@ -15,37 +15,38 @@ int main(){
 		cin>>b[j];
 	}
 	
-	while((i<=n-1)||(j>=0)){
+	while((i<n)||(j>0)){
 		if(a[i]<b[j]){
 			c[k]=a[i];
-			i++;
 			k++;
-		}
+			i++;
+			while(i<n){
+				c[k]=a[i];
+				k++;
+				i++;
+			}
+			
+			}
 		else{
 			c[k]=b[j];
-			j++;
 			k++;
-		
-		}
-		if(j<=0){
-		while	(i<=n-1){
-			c[k]=a[j];
-			i++;
-			k++;
-		}
-		if(i>=n-1){
-			while(j<=0){
-				
-					c[k]=b[j];
-					j++;
-					k++;
-				
+			j--;
+			while(j>0){
+				c[k]=b[j];
+				k++;
+				j++;
 			}
-		}
-		
-		
+			
 		}
 	}
-	cout<<"final array is "<<c[k];
 	
-}
+	cout<<"final array is ";
+	for(i=0;i<n;i++){
+		cout<<c[k];
+	
+	}
+	
+	}
+	
+	
+
